@@ -1,0 +1,4 @@
+*.pynb
+data/*.csv
+data/*.tsv
+data/*.zip
