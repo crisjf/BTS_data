@@ -10,7 +10,9 @@ import zipfile
 from io import StringIO, BytesIO
 import os
 
-OUT_PATH = 'data'
+from config import *
+# OUT_PATH = 'data'
+OUT_PATH = AIR_PATH
 
 def get_file(year,quarter):
 	base_url = 'https://www.transtats.bts.gov/DownLoad_Table.asp'
